@@ -9,3 +9,15 @@ giveMeMammals <- function (mammalName, count)
 
 } # reverseString
 
+today <- "Monday"
+
+giveMeMammals_paul <- function (mammalName, count)
+{
+  result <- c()
+  for(i in 1:count){
+    result <- c(result, mammalName)
+  }
+  
+  return(c("paul:", result))
+  
+} # reverseString
